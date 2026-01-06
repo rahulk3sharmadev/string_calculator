@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:string_calculator/String_calculator/string_cal_controller.dart';
 
 class StringCalculatorScreen extends StatelessWidget {
+  //// do not check this code as this was previously i used for other UI calculator for interview
   final StringController controller = Get.put(StringController());
   final TextEditingController textController = TextEditingController();
 
